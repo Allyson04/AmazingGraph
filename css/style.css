@@ -46,8 +46,9 @@ header div.side-header span {
 /* Styles of div.principal */
 
 div.principal {
-    width: 90%;
-    height: 85%;
+    width: 93%;
+    height: 80%;
+    margin-top: 50px;
     float: right;
 
     background-image: url("../assets/team.jpg");
@@ -55,21 +56,21 @@ div.principal {
     background-repeat: no-repeat;
     background-size: 60%;
     
-    /* border: 1px solid red; */
+    border: 1px solid red;
 
 }
 
 div.principal div.text {
-    width: 60%;
+    width: 65%;
     height: 100%;
     
-    /* border: 1px solid red; */
+    border: 1px solid red;
 
 }
 
 div.principal div.text h1{
     /* margin: 40px 100px; */
-    margin: 40px 20px;
+    margin: 10px 20px 40px 0;
     font-size: 5em;
     /* border: 1px solid red; */
 
@@ -77,20 +78,28 @@ div.principal div.text h1{
 
 div.principal div.text p{
     width: 70%;
-    font-size: 1.5em;
-    margin: 40px 10px;
+    font-size: 2em;
+    margin: 40px 10px 40px 0;
 
     /* border: 1px solid red; */
 }
 
-div.principal div.text a{
-    padding: 20px 150px;
-    background: #D2872C;
-    font-size: 1.5em;
-    color: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+div.principal div.text div.button{
+
+margin-top: 70px;
+
 }
+
+div.principal div.text a{
+    padding: 20px 100px;
+    background: #D2872C;
+    font-size: 2em;
+    color: white;
+    
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
