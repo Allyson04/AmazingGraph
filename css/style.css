@@ -3,7 +3,39 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    /* box-sizing: content-box; */
 }
 
+span {
+    color: #766F68;
+}
 
- 
+header {
+    width: 100%;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header div.Dev {
+    margin: 10px 20px;
+
+}
+
+header div.Dev span {
+    color: #D2872C;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header div.side-header {
+    margin: 10px 20px;
+}
+
+header div.side-header span {
+    font-size: 1.4em;
+    line-height: 1.4em;
+
+    margin: 5px;
+}
