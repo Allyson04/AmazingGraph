@@ -1,0 +1,64 @@
+@media (max-width: 763px) {
+    
+    header div.Dev,
+    header div.side-header {
+        margin: 10px 30px;  
+    }
+
+    header div.Dev span {
+        color: #D2872C;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    
+    header div.side-header span {
+        font-size: 1em;
+        line-height: 1em;
+        color: black;
+    
+        margin: 5px;
+    }
+
+    div.principal {
+        width: 93%;
+        height: 80%;
+        margin-top: 30px;
+
+        background-position: right 25px;
+        background-size: 65%;
+    }
+
+    div.principal div.text h1{
+        /* margin: 40px 100px; */
+        margin: 10px 20px 40px 0;
+        font-size: 2.95em;
+        /* border: 1px solid red; */
+    }
+
+    div.principal div.text p{
+        width: 70%;
+        font-size: 1.2em;
+        margin: 40px 10px 40px 0;
+
+        /* border: 1px solid red; */
+    }
+
+    div.principal div.text div.button{
+
+        margin-top: 30px;
+        
+    }
+
+    div.principal div.text a{
+        padding: 15px 60px;
+        background: #D2872C;
+        font-size: 1.2em;
+        color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+}

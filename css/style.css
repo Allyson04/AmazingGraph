@@ -27,7 +27,6 @@ header {
 header div.Dev,
 header div.side-header {
     margin: 10px 60px;
-
 }
 
 header div.Dev span {
@@ -39,6 +38,7 @@ header div.Dev span {
 header div.side-header span {
     font-size: 1.4em;
     line-height: 1.4em;
+    color: black;
 
     margin: 5px;
 }
@@ -56,16 +56,12 @@ div.principal {
     background-repeat: no-repeat;
     background-size: 60%;
     
-    border: 1px solid red;
-
 }
 
 div.principal div.text {
     width: 65%;
     height: 100%;
     
-    border: 1px solid red;
-
 }
 
 div.principal div.text h1{
