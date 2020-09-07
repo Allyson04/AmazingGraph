@@ -1,14 +1,20 @@
+/* generic styles */
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    /* box-sizing: content-box; */
+    color: #766F68;
+    box-sizing: border-box;
 }
 
-span {
-    color: #766F68;
+body {
+    width: 100vw;
+    height: 100vh;
 }
+
+/* Styles of header in index.html */
 
 header {
     width: 100%;
@@ -18,8 +24,9 @@ header {
     justify-content: space-between;
 }
 
-header div.Dev {
-    margin: 10px 20px;
+header div.Dev,
+header div.side-header {
+    margin: 10px 60px;
 
 }
 
@@ -29,13 +36,61 @@ header div.Dev span {
     font-size: 2em;
 }
 
-header div.side-header {
-    margin: 10px 20px;
-}
-
 header div.side-header span {
     font-size: 1.4em;
     line-height: 1.4em;
 
     margin: 5px;
+}
+
+/* Styles of div.principal */
+
+div.principal {
+    width: 90%;
+    height: 85%;
+    float: right;
+
+    background-image: url("../assets/team.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    
+    /* border: 1px solid red; */
+
+}
+
+div.principal div.text {
+    width: 60%;
+    height: 100%;
+    
+    /* border: 1px solid red; */
+
+}
+
+div.principal div.text h1{
+    /* margin: 40px 100px; */
+    margin: 40px 20px;
+    font-size: 5em;
+    /* border: 1px solid red; */
+
+}
+
+div.principal div.text p{
+    width: 70%;
+    font-size: 1.5em;
+    margin: 40px 10px;
+
+    /* border: 1px solid red; */
+}
+
+div.principal div.text a{
+    padding: 20px 150px;
+    background: #D2872C;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
