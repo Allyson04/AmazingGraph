@@ -1,8 +1,6 @@
 # Olá!
 
-<p>Hoje encontrei um site bem interessante, chamado DevChallenge. Ele possui layouts de diversos tipos de website que utilizam HTML, React Native, CSS e Javacript. Como no momento ainda estou focando no meu aprendizado em CSS e HTML, selecionei o Website Amazing Graph, que utiliza somente estas tecnologias.</p>
-
-<p>O Amazing Graph é um Website para permitir edição de gráficos ou slides</p>
+<p>Projetado pelo Dev Challenge, o Amazing Graph é um Website para permitir edição de gráficos ou slides</p>
 <p>O Desafio é tentar recriar o layout de forma mais fidedigna ao original, esta primeira imagem é a minha versão de computador com layout responsivo, já a segunda é como ela devia ser</p>
 
 <h3>Recriação Minha</h3>
