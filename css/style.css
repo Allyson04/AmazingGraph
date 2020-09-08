@@ -29,6 +29,10 @@ header div.side-header {
     margin: 10px 60px;
 }
 
+.hidden {
+    display: none;
+}
+
 header div.Dev span {
     color: #D2872C;
     font-weight: bold;
@@ -65,25 +69,18 @@ div.principal div.text {
 }
 
 div.principal div.text h1{
-    /* margin: 40px 100px; */
     margin: 10px 20px 40px 0;
     font-size: 5em;
-    /* border: 1px solid red; */
-
 }
 
 div.principal div.text p{
     width: 70%;
     font-size: 2em;
     margin: 40px 10px 40px 0;
-
-    /* border: 1px solid red; */
 }
 
 div.principal div.text div.button{
-
-margin-top: 70px;
-
+    margin-top: 70px;
 }
 
 div.principal div.text a{
